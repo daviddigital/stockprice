@@ -1,4 +1,8 @@
-A simple portfolio builder using alpha vantage API (and free rate limited test API).
+# Stockprice (in progress)
+
+Deployed using Cloudflare Pages: https://stockprice.pages.dev/ 
+
+A simple portfolio builder using alpha vantage API (and free rate limited test API)
 
 # Tech stack
 - HTML

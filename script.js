@@ -14,7 +14,7 @@ document.querySelector("button").addEventListener("click", function(e) {
     e.preventDefault()
     $.getJSON(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${ticker}&apikey=${api_token}`, data => {
         stockData.push(data["Time Series (Daily)"])
-        // console.log(stockData[0]['2021-12-08']['4. close'])
+        console.log(stockData[0])
         const el = document.querySelector("table")
         const price = stockData[0]['2021-12-08']['4. close']
         const date = "2012-12-08"
